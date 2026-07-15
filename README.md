@@ -19,7 +19,8 @@ hingga tuning model machine learning.
 | 08 | `08_hyperparameter_tuning.ipynb` | Tuning hyperparameter untuk meningkatkan performa model |
 
 ## Dataset
-[Isi: sumber dataset, jumlah baris/kolom, fitur utama]
+Sumber di kaggel : https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset/data
+dataset yang diambil: movies_metadata dan ratings_small
 
 ## Tools & Libraries
 Python, Pandas, NumPy, Scikit-learn, Matplotlib/Seaborn
