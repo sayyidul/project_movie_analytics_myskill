@@ -1,30 +1,33 @@
-# Movie Analytics — Data Science Project Series
+# Movie Analytics — Data Science Project
 
-Rangkaian proyek data science end-to-end menggunakan dataset film, 
-dikerjakan sebagai bagian dari kursus Data Science di [MySkill.id](https://myskill.id).
-Proyek ini mengikuti alur kerja data science secara bertahap, dari pemahaman data 
-hingga tuning model machine learning.
+Proyek data science end-to-end menggunakan dataset film, dikerjakan sebagai
+bagian dari kursus Data Science di [MySkill.id](https://myskill.id).
+Proyek ini disusun dalam satu notebook yang mencakup seluruh alur kerja data
+science, dari pemahaman data hingga tuning model machine learning.
 
-## Alur Proyek
+## Tahapan Pengerjaan
 
-| # | Notebook | Deskripsi |
-|---|----------|-----------|
-| 01 | `01_understanding_data.ipynb` | Eksplorasi awal struktur dan karakteristik dataset film |
-| 02 | `02_data_preparation.ipynb` | Pembersihan data, penanganan missing values, dan preprocessing |
-| 03 | `03_feature_engineering.ipynb` | Pembuatan dan transformasi fitur untuk keperluan modeling |
-| 04 | `04_exploratory_data_analysis.ipynb` | Analisis eksploratif untuk menemukan pola dan insight dari data |
-| 05 | `05_ml_workflow.ipynb` | Menyusun alur kerja machine learning end-to-end |
-| 06 | `06_supervised_learning.ipynb` | Implementasi model supervised learning untuk prediksi |
-| 07 | `07_model_evaluation.ipynb` | Evaluasi performa model menggunakan berbagai metrik |
-| 08 | `08_hyperparameter_tuning.ipynb` | Tuning hyperparameter untuk meningkatkan performa model |
+Notebook `movie_analytics.ipynb` mencakup tahapan berikut:
+
+1. **Understanding Data** — Eksplorasi awal struktur dan karakteristik dataset film
+2. **Data Preparation** — Pembersihan data, penanganan missing values, dan preprocessing
+3. **Feature Engineering** — Pembuatan dan transformasi fitur untuk keperluan modeling
+4. **Exploratory Data Analysis** — Analisis eksploratif untuk menemukan pola dan insight
+5. **ML Workflow** — Menyusun alur kerja machine learning end-to-end
+6. **Supervised Learning** — Implementasi model supervised learning untuk prediksi
+7. **Model Evaluation** — Evaluasi performa model menggunakan berbagai metrik
+8. **Hyperparameter Tuning** — Tuning hyperparameter untuk meningkatkan performa model
 
 ## Dataset
-Sumber di kaggel : https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset/data
-dataset yang diambil: movies_metadata dan ratings_small
+
+Sumber: [Kaggle - The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset/data)
+Data yang digunakan: `movies_metadata` dan `ratings_small`
 
 ## Tools & Libraries
+
 Python, Pandas, NumPy, Scikit-learn, Matplotlib/Seaborn
 
 ## Catatan
-Proyek ini dikerjakan secara bertahap mengikuti kurikulum kursus, 
-sehingga setiap notebook merepresentasikan satu tahap dalam pipeline data science.
+
+Proyek ini dikerjakan mengikuti kurikulum kursus, sehingga setiap bagian pada
+notebook merepresentasikan satu tahap dalam pipeline data science.
